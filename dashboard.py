@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+cd /mount/src/e-commerce-analysis
 pip install streamlit babel
 pip install -r requirements.txt
 
