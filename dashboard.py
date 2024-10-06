@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
 
 # Deploy
-
-
-import subprocess
-
-# Install streamlit
-subprocess.run(["pip", "install", "streamlit", "-q"], check=True)
-
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
