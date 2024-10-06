@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+pip install streamlit babel
+pip install -r requirements.txt
+
 # Deploy
 import streamlit as st
 import pandas as pd
