@@ -10,15 +10,15 @@ import datetime as dt
 import urllib
 import matplotlib.image as mpimg
 
-customers = pd.read_csv(".\data\customers.csv")
-geolocation = pd.read_csv(".\data\geolocation.csv")
-items = pd.read_csv(".\data\order_items.csv")
-payments = pd.read_csv(".\data\order_payments.csv")
-reviews = pd.read_csv(".\data\order_reviews.csv")
-orders = pd.read_csv(".\data\orders.csv", encoding='utf-8')
-category = pd.read_csv(".\data\product_category_name_translation.csv", encoding='utf-8')
-products = pd.read_csv(".\data\products.csv", encoding='utf-8')
-sellers = pd.read_csv(".\data\sellers.csv", encoding='utf-8')
+customers = pd.read_csv("./data/customers.csv")
+geolocation = pd.read_csv("./data/geolocation.csv")
+items = pd.read_csv("./data/order_items.csv")
+payments = pd.read_csv("./data/order_payments.csv")
+reviews = pd.read_csv("./data/order_reviews.csv")
+orders = pd.read_csv("./data/orders.csv", encoding='utf-8')
+category = pd.read_csv("./data/product_category_name_translation.csv", encoding='utf-8')
+products = pd.read_csv("./data/products.csv", encoding='utf-8')
+sellers = pd.read_csv("./data/sellers.csv", encoding='utf-8')
 
 data = {'orders': orders,
         'items': items,
