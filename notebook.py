@@ -44,6 +44,15 @@ E-Commerce yang terletak di Brazil
 
 # Import Library
 """
+import os
+
+# Menjalankan perintah pip install dari dalam Python script
+os.system('pip install -r requirements.txt')
+
+import subprocess
+
+# Install streamlit
+subprocess.run(["pip", "install", "streamlit", "-q"], check=True)
 
 # Importing libraries
 import numpy as np
